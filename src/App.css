@@ -84,3 +84,14 @@ textarea:focus {
 .form > button:hover {
   background-color: rgb(0, 0, 196);
 }
+.signupBtn{
+  margin-top: 10px;
+}
+.loginBtn{
+  margin-top: 10px;
+}
+
+.footerMain{
+  background-color: #b8a4a3;
+
+}

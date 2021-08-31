@@ -27,7 +27,7 @@ const Login = () => {
           }
 
           return (
-                    <Container className="d-flex align-items-center justify-content-center" style={{ minHeight: "100vh" }}>
+                    <Container className="d-flex align-items-center justify-content-center" style={{ minHeight: "100vh", maxWidth: "90%" }}>
                     <div className="w-100" style={{ maxWidth: "400px" }}>
                               <Card>
                               <Card.Body>
@@ -44,7 +44,7 @@ const Login = () => {
                                                             <Form.Control ref={passwordRef} type="password" required />
                                                   </Form.Group>
 
-                                                  <Button disabled={loading} className="w-100" type="submit">Log In</Button>
+                                                  <Button disabled={loading} className="w-100 signupBtn" type="submit" >Log In</Button>
                                         </Form>
                               </Card.Body>
                               </Card>

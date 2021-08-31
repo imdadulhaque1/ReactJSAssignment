@@ -59,7 +59,7 @@ const Signup = () => {
                                                             <Form.Control ref={ConfirmPasswordRef} type="password" required />
                                                   </Form.Group>
 
-                                                  <Button disabled={loading} className="w-100" type="submit">Sign Up</Button>
+                                                  <Button disabled={loading} className="w-100 loginBtn" type="submit">Sign Up</Button>
                                         </Form>
                               </Card.Body>
                               </Card>
